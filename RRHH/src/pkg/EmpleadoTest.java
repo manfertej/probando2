@@ -9,6 +9,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class EmpleadoTest {
+	
+	private Empleado empleado = new Empleado();
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
